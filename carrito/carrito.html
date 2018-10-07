@@ -1,0 +1,73 @@
+<head>
+
+
+    <link rel = "stylesheet" href = "carrito.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+</head>
+
+<main>
+
+<h1>Tu Carrrito</h1>
+<div id="cart-container">
+<div id="cart">
+<i class="fa fa-shopping-cart fa-2x openCloseCart" aria-hidden="true"></i>
+<button id="emptyCart">Vaciar carro</button>
+</div>
+<span id="itemCount"></span>
+</div>
+
+
+<div id="shoppingCart">
+    <div id="cartItemsContainer">
+    <h2>Items in your cart</h2>
+    <i class="fa fa-times-circle-o fa-3x openCloseCart" aria-hidden="true"></i>
+    <div id="cartItems"></div>
+    <span id="cartTotal"></span>
+    </div>
+</div>
+
+<nav>
+<ul>
+<li><a href="index.html">Shopping Cart</a></li>
+</ul>
+</nav>
+
+<div class="item">
+    <div class="itemDetails">
+
+            <div class="itemText">
+              <p class="price-container">Precio: $<span class="price">40.000</span></p>
+              <p> Aperiam at optio nam asperiores ipsam voluptate eaque labore.</p>
+            </div>
+          </div>
+    <button class="add">Add to cart</button>
+</div>
+
+<div class="item">
+<div class="itemDetails">
+<div class="itemImage">
+</div>
+<div class="itemText">
+<p class="price-container">Precio: $<span class="price">150.000</span></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+</div>
+<button class="add">Add to cart</button>
+</div>
+
+<div class="item">
+<div class="itemDetails">
+<div class="itemImage">
+</div>
+<div class="itemText">
+<p class="price-container">Precio: $<span class="price">200.000</span></p>
+<p>Aperiam at optio nam asperiores ipsam voluptate eaque labore.</p>
+</div>
+</div>
+<button class="add">Add to cart</button>
+</div>
+</main>
+<script src="carrito.js"></script>
